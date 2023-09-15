@@ -6,14 +6,14 @@ class User:
     password = "1234abcd"
     account_number = 0
 
-    #Define the methods of the class
+    
     def __init__(self, name, email, password, account):
         self.name = name
         self.email = email
         self.password = password
         self.account_number = account
 
-        
+    #Defing the methods of the class
     def login(self):
         entry_email = input("Enter your email: ")
         entry_password = input("Enter your password: ")
@@ -58,8 +58,8 @@ class Vehicle:
 # Child class 1: Car (inherits from Vehicle)
 class Car(Vehicle):
     # Define the attributes
-    make = " "
-    model = " "
+    make = ""
+    model = ""
     year = 2000
 
     # Define the Methods
@@ -75,12 +75,12 @@ class Airplane(Vehicle):
 
     # Define the Methods
     def addPassenger(self):
-        if numOfPassengers < maxNumOfPassengers:
-            numOfPassengers += 1
+        if self.numOfPassengers < self.maxNumOfPassengers:
+            self.numOfPassengers += 1
 
     def remPassenger(self):
-        if numOfPassengers > 0:
-            numOfPassengers -= 1
+        if self.numOfPassengers > 0:
+            self.numOfPassengers -= 1
 
 
     
