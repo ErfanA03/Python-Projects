@@ -88,11 +88,11 @@ class Reptiles(Animal):
         else:
             print("{} and is not cold blooded!".format(msg))
 
-my_animal = Animal("cat", "female", "Copurrrnicus")
+my_animal = Animal("cat", "female", "Copurrrnicus") #Create an instance of the "Animal" class
 my_pet = Pets("dog", "male", "canine", "Buddy", "dog food") #Create an instance of the "Pets" class
 lizard1 = Reptiles("lizard", "female", "reptile", "Lizzy", "insects", 4, 0, True) #Create an instance of the "Reptiles" class
 
 #Polymorphism Examples:
-my_animal.Information()
+my_animal.Information() #Calls on the Information method from the "Animals" class
 my_pet.Information() #Calls on the Information method from the "Pets" class
 lizard1.Information() #Calls on the Information method from the "Reptiles" class
