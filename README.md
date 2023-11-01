@@ -3,7 +3,7 @@ This repository contains various projects related to learning **Python** and the
 
 ## Projects
 * Phonebook
-* Check Files Gui
+* Check Files GUI
 * Bank Account
 
 ### Phonebook
