@@ -9,7 +9,7 @@ This repository contains various projects related to learning **Python** and the
 ### Phonebook
 This project functions as a phone book for a user. It saves a contact's name, phone number, and email address in a database and allows the user to update and delete previously stored entries.
 
-### Check Files Gui
+### Check Files GUI
 This project allows the user to choose transfer all .txt files from one chosen directory to another. All files that are moved will be saved in a database.
 
 ### Bank Account
